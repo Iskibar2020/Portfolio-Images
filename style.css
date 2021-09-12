@@ -9,7 +9,6 @@ body {
 .container {
   display: flex;
   width: 100%;
-  margin: 3rem auto;
   box-sizing: border-box;
   height: 50vh;
   padding: 0%;
