@@ -110,6 +110,13 @@ h2 {
   transition: .5s;
   margin: 5px;
 }
+.box > iframe {
+  width: 200%;
+  height: calc(100%);
+  object-fit: cover; 
+  transition: .5s;
+  margin: 5px;
+}
 
 .box > span {
   font-size: 2vh;
