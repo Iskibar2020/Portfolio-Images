@@ -4,7 +4,13 @@
   <meta charset="UTF-8">
   <title>CodePen - Toggle Tabs</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Overpass:100,300,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,400i,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:200,400,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Roboto:300,700" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel='stylesheet' href='https://cdn.rawgit.com/dimsemenov/Magnific-Popup/master/dist/magnific-popup.css'>
+  <script src="https://use.fontawesome.com/88a44a09b2.js"></script>
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
@@ -17,7 +23,7 @@
 </div>
 <div class="container">
 	<div class="tab-slider--container">
-		<div id="tab1" class="">
+		<div id="tab1" class="tab-slider--body">
 			<div class="tab-slider--body">
 				<div class="container row">
 					<div class="box">
@@ -151,42 +157,68 @@
 				</div>
 			</div>			
 		</div>
-		<div id="tab2" class="tab-slider--body">
-      <div class="container row">
-        <div class="box">
-          <iframe width="1904" height="768" src="https://www.youtube.com/embed/hB83Mv1YVhI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <span>CSS</span>
-        </div>
-        <div class="box">
-          <iframe width="1904" height="768" src="https://www.youtube.com/embed/WQgN4fb9ZXQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <span>CSS</span>
-        </div>
-        <div class="box">
-          <iframe width="1904" height="768" src="https://www.youtube.com/embed/GPZZOUOf6Vs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <span>CSS</span>
-        </div>
-        <div class="box">
-          <iframe width="1904" height="768" src="https://www.youtube.com/embed/4ocj4xmpIX0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <span>CSS</span>
-        </div>
-        <div class="box">
-          <iframe width="1904" height="768" src="https://www.youtube.com/embed/EDyI_T_UOGk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <span>CSS</span>
-        </div>
-        <div class="box">
-          <iframe width="1904" height="768" src="https://www.youtube.com/embed/X0LfmciHtro" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <span>CSS</span>
-        </div>
-        <div class="box">
-          <iframe width="1904" height="768" src="https://www.youtube.com/embed/O0uJnaTFSsE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <span>CSS</span>
-        </div>
+	<div id="tab2" class="tab-slider--body">
+		<div class="content">
+  
+			<div class="video-gallery">
+			  
+			  <div class="gallery-item ">
+			   <img src="https://assets.codepen.io/156905/rainier.jpg" alt="Mount Rainier"/>
+				<div class="gallery-item-caption">
+				  <!--<div>-->
+					<h2>Mount Rainier</h2>
+					<p>14410 feet of adventure</p>
+				  <!--</div>-->
+				  <a class="vimeo-popup" href="https://vimeo.com/179049611"></a>
+				</div>
+			  </div>
+		  
+			  <div class="gallery-item">
+				<img src="https://assets.codepen.io/156905/olympicnationalpark.jpg" alt="Olympic National Park"/>
+				<div class="gallery-item-caption">
+				  <!--<div>-->
+					<h2>Olympic National Park</h2>
+					<p>Mountains, rain forests, wild coastlines</p>
+				  <!--</div>-->
+				  <a class="vimeo-popup" href="https://vimeo.com/108785446"></a>
+				</div>
+			  </div>
+			  
+			  <div class="gallery-item">
+			   <img src="https://assets.codepen.io/156905/northcascadespark.jpg" class="north-cascades-img" alt="North Cascades National Park"/>
+				<div class="gallery-item-caption">
+				  <!--<div>-->
+					<h2>North Cascades</h2>
+					<p>The mountains are calling</p>
+				  <!--</div>-->
+				  <a class="vimeo-popup" href="https://vimeo.com/3653567"></a>
+				</div>
+			  </div>
+		  
+			  <div class="gallery-item">
+				<img src="https://assets.codepen.io/156905/mountsthelens.jpg" alt="Mount St Helens"/>
+				<div class="gallery-item-caption">
+				  <!--<div>-->
+					<h2>Mount St. Helens</h2>
+					<p>The one and only</p>
+				  <!--</div>-->
+				  <a class="vimeo-popup" href="https://vimeo.com/171540296"></a>
+				</div>
+			  </div>
+			  
+		   
+		  
+			</div>
+		  </div>
+     
       </div>
-		</div>
+	</div>
 	</div>
 </div>
 <!-- partial -->
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script><script  src="./script.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://cdn.rawgit.com/dimsemenov/Magnific-Popup/master/dist/jquery.magnific-popup.js'></script>
+<script  src="./script.js"></script>
 
 </body>
 </html>

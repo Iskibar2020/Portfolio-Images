@@ -1,6 +1,13 @@
 $("document").ready(function(){
   $(".tab-slider--body").hide();
   $(".tab-slider--body:first").show();
+  $(".video-gallery").magnificPopup({
+    delegate: "a",
+    type: "iframe",
+    gallery: {
+      enabled: true
+    }
+  });
 });
 
 $(".tab-slider--nav li").click(function() {
@@ -14,4 +21,8 @@ $(".tab-slider--nav li").click(function() {
 	}
   $(".tab-slider--nav li").removeClass("active");
   $(this).addClass("active");
+});
+
+$(document).ready(function () {
+  
 });
