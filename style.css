@@ -134,6 +134,12 @@ h2 {
   height: 100%;
 }
  
+
+.mfp-iframe-holder {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
 .section-header {
   display: flex;
   justify-content: center;
