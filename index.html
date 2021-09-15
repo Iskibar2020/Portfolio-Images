@@ -14,208 +14,229 @@
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-<!-- partial:index.partial.html -->
-<div class="tab-slider--nav">
-	<ul class="tab-slider--tabs">
-		<li class="tab-slider--trigger active" rel="tab1">Render</li>
-		<li class="tab-slider--trigger" rel="tab2">Video</li>
-	</ul>
-</div>
-<div class="container">
-	<div class="tab-slider--container">
-		<div id="tab1" class="tab-slider--body">
-			<div class="tab-slider--body">
-				<div class="container row">
-					<div class="box">
-						<img src="img/Interior/Kestrel-Interior-Bathroom-01.jpg">
-						<span>CSS</span>
-					  </div>
-					  <div class="box">
-						<img src="img/Interior/Kestrel-Interior-Bathroom-02.jpg">
-						<span>Image</span>
-					  </div>
-					  <div class="box">
-						<img src="img/Interior/Kestrel-Interior-Bathroom-03.jpg">
-						<span>Hover</span>
-					  </div>
-					  <div class="box">
-						<img src="img/Interior/Kestrel-Interior-Bathroom-04.jpg">
-						<span>Effect</span>
-				    </div>
-            <div class="box">
-            <img src="img/Interior/Kestrel-Interior-Bathroom-05.jpg">
-            <span>Effect</span>
-            </div>
-            <div class="box">
-              <img src="img/Interior/Kestrel-Interior-Bedroom-06.jpg">
-              <span>Effect</span>
-            </div>
-				</div>
-        <div class="container row">
-					<div class="box">
-						<img src="img/Interior/Kestrel-Interior-Bedroom-07.jpg">
-						<span>CSS</span>
-					  </div>
-					  <div class="box">
-						<img src="img/Interior/Kestrel-Interior-Bedroom-08.jpg">
-						<span>Image</span>
-					  </div>
-					  <div class="box">
-						<img src="img/Interior/Kestrel-Interior-Bedroom-09.jpg">
-						<span>Hover</span>
-					  </div>
-					  <div class="box">
-						<img src="img/Interior/Kestrel-Interior-Bedroom-10.jpg">
-						<span>Effect</span>
-				    </div>
-            <div class="box">
-            <img src="img/Interior/Kestrel-Interior-StudyRoom-11.png">
-            <span>Effect</span>
-            </div>
-            <div class="box">
-              <img src="img/Interior/Kestrel-Interior-StudyRoom-12.png">
-              <span>Effect</span>
-            </div>
-				</div>
-        <div class="container row">
-					<div class="box">
-						<img src="img/Interior/Kestrel-Interior-Kitchen-13.png">
-						<span>CSS</span>
-					  </div>
-					  <div class="box">
-						<img src="img/Interior/Kestrel-Interior-Kitchen-14.png">
-						<span>Image</span>
-					  </div>
-					  <div class="box">
-						<img src="img/Interior/Kestrel-Interior-Kitchen-15.png">
-						<span>Hover</span>
-					  </div>
-					  <div class="box">
-						<img src="img/Interior/Kestrel-Interior-Kitchen-16.png">
-						<span>Effect</span>
-				    </div>
-            <div class="box">
-            <img src="img/Interior/Kestrel-Interior-Kitchen-17.png">
-            <span>Effect</span>
-            </div>
-            <div class="box">
-              <img src="img/Interior/Kestrel-Interior-Kitchen-18.png">
-              <span>Effect</span>
-            </div>
-				</div>
-        <div class="container row">
-					<div class="box">
-						<img src="img/Interior/Kestrel-Interior-Kitchen-19.png">
-						<span>CSS</span>
-					  </div>
-					  <div class="box">
-						<img src="img/Interior/Kestrel-Interior-Livingroom-20.png">
-						<span>Image</span>
-					  </div>
-					  <div class="box">
-						<img src="img/Interior/Kestrel-Interior-Livingroom-21.png">
-						<span>Hover</span>
-					  </div>
-					  <div class="box">
-						<img src="img/Interior/Kestrel-Interior-Livingroom-22.png">
-						<span>Effect</span>
-				    </div>
-            <div class="box">
-            <img src="img/Interior/Kestrel-Interior-Livingroom-23.png">
-            <span>Effect</span>
-            </div>
-            <div class="box">
-              <img src="img/Interior/Kestrel-Interior-Livingroom-24.png">
-              <span>Effect</span>
-            </div>
-				</div>
-				<div class="container row">
-					<div class="box">
-						<img src="img/Interior/Kestrel-Interior-Livingroom-25.png">
-						<span>CSS</span>
-					  </div>
-					  <div class="box">
-						<img src="img/Interior/Kestrel-Interior-Livingroom-26.png">
-						<span>Image</span>
-					  </div>
-					  <div class="box">
-						<img src="img/Interior/Kestrel-Interior-Livingroom-27.png">
-						<span>Hover</span>
-					  </div>
-					  <div class="box">
-						<img src="img/Interior/Kestrel-Interior-Livingroom-28.png">
-						<span>Effect</span>
-				    </div>
-            <div class="box">
-            <img src="img/Interior/Kestrel-Interior-Livingroom-29.png">
-            <span>Effect</span>
-            </div>
-            <div class="box">
-              <img src="img/Interior/Kestrel-Interior-Others-30.jpg">
-              <span>Effect</span>
-            </div>
-				</div>
-			</div>			
+	<div class="tab">
+		<button class="tablinks" onclick="openCity(event, 'London')">Interior  Render</button>
+		<button class="tablinks" onclick="openCity(event, 'Paris')">Exterior Render</button>
+		<button class="tablinks" onclick="openCity(event, 'Tokyo')">Product Modelling</button>
+		<button class="tablinks" onclick="openCity(event, 'Denver')">Virtual Staging</button>
+		<button class="tablinks" onclick="openCity(event, 'Nairobi')">Walkthrough Animation</button>
+	  </div>
+	  
+	  <div id="London" class="tabcontent">
+		<div class="container row">
+		  <div class="box">
+			<img src="img/Interior/Kestrel-Interior-Bedroom-07.jpg">
+			<span>CSS</span>
+			</div>
+			<div class="box">
+			<img src="img/Interior/Kestrel-Interior-Bedroom-08.jpg">
+			<span>Image</span>
+			</div>
+			<div class="box">
+			<img src="img/Interior/Kestrel-Interior-Bedroom-09.jpg">
+			<span>Hover</span>
+			</div>
+			<div class="box">
+			<img src="img/Interior/Kestrel-Interior-Bedroom-10.jpg">
+			<span>Effect</span>
+			</div>
+			<div class="box">
+			<img src="img/Interior/Kestrel-Interior-StudyRoom-11.png">
+			<span>Effect</span>
+			</div>
+			<div class="box">
+			  <img src="img/Interior/Kestrel-Interior-StudyRoom-12.png">
+			  <span>Effect</span>
+			</div>
 		</div>
-	<div id="tab2" class="tab-slider--body">
+		<div class="container row">
+			<div class="box">
+			  <img src="img/Interior/Kestrel-Interior-Bedroom-07.jpg">
+			  <span>CSS</span>
+			  </div>
+			  <div class="box">
+			  <img src="img/Interior/Kestrel-Interior-Bedroom-08.jpg">
+			  <span>Image</span>
+			  </div>
+			  <div class="box">
+			  <img src="img/Interior/Kestrel-Interior-Bedroom-09.jpg">
+			  <span>Hover</span>
+			  </div>
+			  <div class="box">
+			  <img src="img/Interior/Kestrel-Interior-Bedroom-10.jpg">
+			  <span>Effect</span>
+			  </div>
+			  <div class="box">
+			  <img src="img/Interior/Kestrel-Interior-StudyRoom-11.png">
+			  <span>Effect</span>
+			  </div>
+			  <div class="box">
+				<img src="img/Interior/Kestrel-Interior-StudyRoom-12.png">
+				<span>Effect</span>
+			  </div>
+		</div>
+		<div class="container row">
+		<div class="box">
+			  <img src="img/Interior/Kestrel-Interior-Bedroom-07.jpg">
+			  <span>CSS</span>
+			  </div>
+			  <div class="box">
+			  <img src="img/Interior/Kestrel-Interior-Bedroom-08.jpg">
+			  <span>Image</span>
+			  </div>
+			  <div class="box">
+			  <img src="img/Interior/Kestrel-Interior-Bedroom-09.jpg">
+			  <span>Hover</span>
+			  </div>
+			  <div class="box">
+			  <img src="img/Interior/Kestrel-Interior-Bedroom-10.jpg">
+			  <span>Effect</span>
+			  </div>
+			  <div class="box">
+			  <img src="img/Interior/Kestrel-Interior-StudyRoom-11.png">
+			  <span>Effect</span>
+			  </div>
+			  <div class="box">
+				<img src="img/Interior/Kestrel-Interior-StudyRoom-12.png">
+				<span>Effect</span>
+			</div>
+		</div>
+	  </div>	  
+	  <div id="Paris" class="tabcontent">
+		<div class="container row">
+			<div class="box">
+			  <img src="img/Interior/Kestrel-Interior-Bedroom-07.jpg">
+			  <span>CSS</span>
+			  </div>
+			  <div class="box">
+			  <img src="img/Interior/Kestrel-Interior-Bedroom-08.jpg">
+			  <span>Image</span>
+			  </div>
+			  <div class="box">
+			  <img src="img/Interior/Kestrel-Interior-Bedroom-09.jpg">
+			  <span>Hover</span>
+			  </div>
+			  <div class="box">
+			  <img src="img/Interior/Kestrel-Interior-Bedroom-10.jpg">
+			  <span>Effect</span>
+			  </div>
+			  <div class="box">
+			  <img src="img/Interior/Kestrel-Interior-StudyRoom-11.png">
+			  <span>Effect</span>
+			  </div>
+			  <div class="box">
+				<img src="img/Interior/Kestrel-Interior-StudyRoom-12.png">
+				<span>Effect</span>
+			  </div>
+		  </div>
+	  </div>
+	  <div id="Tokyo" class="tabcontent">
+		<div class="container row">
+			<div class="box">
+			  <img src="img/Interior/Kestrel-Interior-Bedroom-07.jpg">
+			  <span>CSS</span>
+			  </div>
+			  <div class="box">
+			  <img src="img/Interior/Kestrel-Interior-Bedroom-08.jpg">
+			  <span>Image</span>
+			  </div>
+			  <div class="box">
+			  <img src="img/Interior/Kestrel-Interior-Bedroom-09.jpg">
+			  <span>Hover</span>
+			  </div>
+			  <div class="box">
+			  <img src="img/Interior/Kestrel-Interior-Bedroom-10.jpg">
+			  <span>Effect</span>
+			  </div>
+			  <div class="box">
+			  <img src="img/Interior/Kestrel-Interior-StudyRoom-11.png">
+			  <span>Effect</span>
+			  </div>
+			  <div class="box">
+				<img src="img/Interior/Kestrel-Interior-StudyRoom-12.png">
+				<span>Effect</span>
+			  </div>
+		  </div>
+	  </div>
+	  <div id="Denver" class="tabcontent">
+		<div class="container row">
+		  <div class="box">
+			<img src="img/Interior/Kestrel-Interior-Bedroom-07.jpg">
+			<span>CSS</span>
+			</div>
+			<div class="box">
+			<img src="img/Interior/Kestrel-Interior-Bedroom-08.jpg">
+			<span>Image</span>
+			</div>
+			<div class="box">
+			<img src="img/Interior/Kestrel-Interior-Bedroom-09.jpg">
+			<span>Hover</span>
+			</div>
+			<div class="box">
+			<img src="img/Interior/Kestrel-Interior-Bedroom-10.jpg">
+			<span>Effect</span>
+			</div>
+			<div class="box">
+			<img src="img/Interior/Kestrel-Interior-StudyRoom-11.png">
+			<span>Effect</span>
+			</div>
+			<div class="box">
+			  <img src="img/Interior/Kestrel-Interior-StudyRoom-12.png">
+			  <span>Effect</span>
+			</div>
+		</div>
+	  </div>
+	  <div id="Nairobi" class="tabcontent">
 		<div class="content">
-  
-			<div class="video-gallery">
-			  
-			  <div class="gallery-item ">
-			   <img src="https://assets.codepen.io/156905/rainier.jpg" alt="Mount Rainier"/>
-				<div class="gallery-item-caption">
-				  <!--<div>-->
-					<h2>Mount Rainier</h2>
-					<p>14410 feet of adventure</p>
-				  <!--</div>-->
-				  <a class="vimeo-popup" href="https://vimeo.com/179049611"></a>
-				</div>
-			  </div>
+		
+		  <div class="video-gallery">
+			
+			<div class="gallery-item ">
+			 <img src="https://assets.codepen.io/156905/rainier.jpg" alt="Mount Rainier"/>
+			<div class="gallery-item-caption">
+			  <!--<div>-->
+			  <h2>Mount Rainier</h2>
+			  <p>14410 feet of adventure</p>
+			  <!--</div>-->
+			  <a class="vimeo-popup" href="https://vimeo.com/179049611"></a>
+			</div>
+			</div>
 		  
-			  <div class="gallery-item">
-				<img src="https://assets.codepen.io/156905/olympicnationalpark.jpg" alt="Olympic National Park"/>
-				<div class="gallery-item-caption">
-				  <!--<div>-->
-					<h2>Olympic National Park</h2>
-					<p>Mountains, rain forests, wild coastlines</p>
-				  <!--</div>-->
-				  <a class="vimeo-popup" href="https://vimeo.com/108785446"></a>
-				</div>
-			  </div>
-			  
-			  <div class="gallery-item">
-			   <img src="https://assets.codepen.io/156905/northcascadespark.jpg" class="north-cascades-img" alt="North Cascades National Park"/>
-				<div class="gallery-item-caption">
-				  <!--<div>-->
-					<h2>North Cascades</h2>
-					<p>The mountains are calling</p>
-				  <!--</div>-->
-				  <a class="vimeo-popup" href="https://vimeo.com/3653567"></a>
-				</div>
-			  </div>
+			<div class="gallery-item">
+			<img src="https://assets.codepen.io/156905/olympicnationalpark.jpg" alt="Olympic National Park"/>
+			<div class="gallery-item-caption">
+			  <!--<div>-->
+			  <h2>Olympic National Park</h2>
+			  <p>Mountains, rain forests, wild coastlines</p>
+			  <!--</div>-->
+			  <a class="vimeo-popup" href="https://vimeo.com/108785446"></a>
+			</div>
+			</div>
+			
+			<div class="gallery-item">
+			 <img src="https://assets.codepen.io/156905/northcascadespark.jpg" class="north-cascades-img" alt="North Cascades National Park"/>
+			<div class="gallery-item-caption">
+			  <!--<div>-->
+			  <h2>North Cascades</h2>
+			  <p>The mountains are calling</p>
+			  <!--</div>-->
+			  <a class="vimeo-popup" href="https://vimeo.com/3653567"></a>
+			</div>
+			</div>
 		  
-			  <div class="gallery-item">
-				<img src="https://assets.codepen.io/156905/mountsthelens.jpg" alt="Mount St Helens"/>
-				<div class="gallery-item-caption">
-				  <!--<div>-->
-					<h2>Mount St. Helens</h2>
-					<p>The one and only</p>
-				  <!--</div>-->
-				  <a class="vimeo-popup" href="https://vimeo.com/171540296"></a>
-				</div>
-			  </div>
-			  
-		   
-		  
+			<div class="gallery-item">
+			<img src="https://assets.codepen.io/156905/mountsthelens.jpg" alt="Mount St Helens"/>
+			<div class="gallery-item-caption">
+			  <!--<div>-->
+			  <h2>Mount St. Helens</h2>
+			  <p>The one and only</p>
+			  <!--</div>-->
+			  <a class="vimeo-popup" href="https://vimeo.com/171540296"></a>
+			</div>
 			</div>
 		  </div>
-     
-      </div>
-	</div>
-	</div>
-</div>
-<!-- partial -->
+		  </div>
+	  </div>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
 <script src='https://cdn.rawgit.com/dimsemenov/Magnific-Popup/master/dist/jquery.magnific-popup.js'></script>
 <script  src="./script.js"></script>
