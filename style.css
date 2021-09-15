@@ -135,6 +135,13 @@ h2 {
 }
 
 
+.content{
+  margin-left: 25vw;
+  margin-right: 25vw;
+}
+
+
+
 .section-header {
   display: flex;
   justify-content: center;
