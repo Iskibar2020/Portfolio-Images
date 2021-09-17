@@ -10,6 +10,10 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Roboto:300,700" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
   <link rel='stylesheet' href='https://cdn.rawgit.com/dimsemenov/Magnific-Popup/master/dist/magnific-popup.css'>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/reset.css">
+  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/jquery.mobile.custom.min.js"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
   <script src="https://use.fontawesome.com/88a44a09b2.js"></script>
   <link rel="stylesheet" href="./style.css">
 </head>
@@ -17,7 +21,6 @@
 	<div class="tab">
 		<button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">Interior  Render</button>
 		<button class="tablinks" onclick="openCity(event, 'Paris')">Exterior Render</button>
-		<button class="tablinks" onclick="openCity(event, 'Tokyo')">Product Modelling</button>
 		<button class="tablinks" onclick="openCity(event, 'Denver')">Virtual Staging</button>
 		<button class="tablinks" onclick="openCity(event, 'Nairobi')">Walkthrough Animation</button>
 	  </div>
@@ -79,86 +82,66 @@
 	  <div id="Paris" class="tabcontent">
 		<div class="container row">
 			<div class="box">
-			  <img src="img/Interior/Kestrel-Interior-Bedroom-07.jpg">
+			  <img src="img/Exterior/Kestrel-Exterior-01.jpg">
 			  <span>CSS</span>
 			  </div>
 			  <div class="box">
-			  <img src="img/Interior/Kestrel-Interior-Bedroom-08.jpg">
+			  <img src="img/Exterior/Kestrel-Exterior-02.jpg">
 			  <span>Image</span>
 			  </div>
 			  <div class="box">
-			  <img src="img/Interior/Kestrel-Interior-Bedroom-09.jpg">
+			  <img src="img/Exterior/Kestrel-Exterior-03.jpg">
 			  <span>Hover</span>
 			  </div>
 			  <div class="box">
-			  <img src="img/Interior/Kestrel-Interior-Bedroom-10.jpg">
+			  <img src="img/Exterior/Kestrel-Exterior-04.jpg">
 			  <span>Effect</span>
 			  </div>
 			  <div class="box">
-			  <img src="img/Interior/Kestrel-Interior-StudyRoom-11.png">
+			  <img src="img/Exterior/Kestrel-Exterior-05.jpg">
 			  <span>Effect</span>
 			  </div>
 			  <div class="box">
-				<img src="img/Interior/Kestrel-Interior-StudyRoom-12.png">
-				<span>Effect</span>
-			  </div>
-		  </div>
-	  </div>
-	  <div id="Tokyo" class="tabcontent">
-		<div class="container row">
-			<div class="box">
-			  <img src="img/Interior/Kestrel-Interior-Bedroom-07.jpg">
-			  <span>CSS</span>
-			  </div>
-			  <div class="box">
-			  <img src="img/Interior/Kestrel-Interior-Bedroom-08.jpg">
-			  <span>Image</span>
-			  </div>
-			  <div class="box">
-			  <img src="img/Interior/Kestrel-Interior-Bedroom-09.jpg">
-			  <span>Hover</span>
-			  </div>
-			  <div class="box">
-			  <img src="img/Interior/Kestrel-Interior-Bedroom-10.jpg">
-			  <span>Effect</span>
-			  </div>
-			  <div class="box">
-			  <img src="img/Interior/Kestrel-Interior-StudyRoom-11.png">
-			  <span>Effect</span>
-			  </div>
-			  <div class="box">
-				<img src="img/Interior/Kestrel-Interior-StudyRoom-12.png">
+				<img src="img/Exterior/Kestrel-Exterior-06.jpg">
 				<span>Effect</span>
 			  </div>
 		  </div>
 	  </div>
 	  <div id="Denver" class="tabcontent">
-		<div class="container row">
-		  <div class="box">
-			<img src="img/Interior/Kestrel-Interior-Bedroom-07.jpg">
-			<span>CSS</span>
+		<figure class="cd-image-container">
+			<img src="https://source.unsplash.com/KbR06h9dNQw/768x460" alt="Original Image">
+			<span class="cd-image-label" data-type="original">Crowded</span>
+	
+			<div class="cd-resize-img"> <!-- the resizable image on top -->
+				<img src="https://source.unsplash.com/jFCViYFYcus/768x460" alt="Modified Image">
+				<span class="cd-image-label" data-type="modified">Quiet</span>
 			</div>
-			<div class="box">
-			<img src="img/Interior/Kestrel-Interior-Bedroom-08.jpg">
-			<span>Image</span>
-			</div>
-			<div class="box">
-			<img src="img/Interior/Kestrel-Interior-Bedroom-09.jpg">
-			<span>Hover</span>
-			</div>
-			<div class="box">
-			<img src="img/Interior/Kestrel-Interior-Bedroom-10.jpg">
-			<span>Effect</span>
-			</div>
-			<div class="box">
-			<img src="img/Interior/Kestrel-Interior-StudyRoom-11.png">
-			<span>Effect</span>
-			</div>
-			<div class="box">
-			  <img src="img/Interior/Kestrel-Interior-StudyRoom-12.png">
-			  <span>Effect</span>
-			</div>
+	
+			<span class="cd-handle"></span>
+	</figure>
+	<figure class="cd-image-container">
+		<img src="https://source.unsplash.com/KbR06h9dNQw/768x460" alt="Original Image">
+		<span class="cd-image-label" data-type="original">Crowded</span>
+
+		<div class="cd-resize-img"> <!-- the resizable image on top -->
+			<img src="https://source.unsplash.com/jFCViYFYcus/768x460" alt="Modified Image">
+			<span class="cd-image-label" data-type="modified">Quiet</span>
 		</div>
+
+		<span class="cd-handle"></span>
+</figure>
+<figure class="cd-image-container">
+	<img src="https://source.unsplash.com/KbR06h9dNQw/768x460" alt="Original Image">
+	<span class="cd-image-label" data-type="original">Crowded</span>
+
+	<div class="cd-resize-img"> <!-- the resizable image on top -->
+		<img src="https://source.unsplash.com/jFCViYFYcus/768x460" alt="Modified Image">
+		<span class="cd-image-label" data-type="modified">Quiet</span>
+	</div>
+
+	<span class="cd-handle"></span>
+</figure>
+
 	  </div>
 	  <div id="Nairobi" class="tabcontent">
 		<div class="content">
@@ -166,7 +149,7 @@
 		  <div class="video-gallery">
 			
 			<div class="gallery-item ">
-			 <img src="https://assets.codepen.io/156905/rainier.jpg" alt="Mount Rainier"/>
+			 <img src="img/Walkthrough Animation/Thumnail.png" alt="Mount Rainier"/>
 			<div class="gallery-item-caption">
 			  <!--<div>-->
 			  <h2>Mount Rainier</h2>
